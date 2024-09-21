@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616082376174",
+    "project_id": "alphaonev001-5a5b1",
+    "storage_bucket": "alphaonev001-5a5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616082376174:android:3a6c189f7f4d99a90f3aff",
+        "android_client_info": {
+          "package_name": "com.example.alphaone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUg2rJnH3H6rl_cRRDXO9PWwcrgvey-dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
