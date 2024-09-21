@@ -2,6 +2,7 @@ import 'package:alphaone/core/configs/theme/app_theme.dart';
 import 'package:alphaone/firebase_options.dart';
 import 'package:alphaone/presentation/choose_mode/bloc/theme_cubit.dart';
 import 'package:alphaone/presentation/splash/pages/splash.dart';
+import 'package:alphaone/service_locator.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ Future<void> main() async {
         : await getApplicationDocumentsDirectory(),
   );
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await initializeDependencies();
   runApp(const MyApp());
 }
 
