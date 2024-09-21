@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:alphaone/presentation/auth/pages/signin_or_signup.dart';
 import 'package:alphaone/presentation/choose_mode/bloc/theme_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -151,7 +152,7 @@ class ChooseModePage extends StatelessWidget {
                       context,
                       MaterialPageRoute<void>(
                         builder: (BuildContext context) =>
-                            const SignupOrSigninPage(),
+                            const SigninOrSignup(),
                       ),
                     );
                   },
