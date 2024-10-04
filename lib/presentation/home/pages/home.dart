@@ -5,6 +5,7 @@ import 'package:alphaone/core/configs/assets/app_vectors.dart';
 import 'package:alphaone/core/configs/theme/app_colors.dart';
 import 'package:alphaone/presentation/home/widgets/new_songs.dart';
 import 'package:alphaone/presentation/home/widgets/playlists.dart';
+import 'package:alphaone/presentation/profile/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -32,11 +33,12 @@ class HomePageState extends State<HomePage>
         hideBack: true,
         action: IconButton(
           onPressed: () {
-            /*Navigator.push(
+            Navigator.push(
               context,
               MaterialPageRoute<void>(
-                  builder: (BuildContext context) => const ProfilePage(),),
-            );*/
+                builder: (BuildContext context) => const ProfilePage(),
+              ),
+            );
           },
           icon: const Icon(
             Icons.person,
