@@ -59,14 +59,14 @@ class HomePageState extends State<HomePage>
               child: TabBarView(
                 controller: _tabController,
                 children: [
-                  const NewSongs(),
+                  const NewsSongs(),
                   Container(),
                   Container(),
                   Container(),
                 ],
               ),
             ),
-            const Playlist(),
+            const PlayList(),
           ],
         ),
       ),

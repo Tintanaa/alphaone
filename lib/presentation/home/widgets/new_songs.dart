@@ -4,6 +4,7 @@ import 'package:alphaone/core/configs/theme/app_colors.dart';
 import 'package:alphaone/domain/entities/song/song.dart';
 import 'package:alphaone/presentation/home/bloc/news_songs_cubit.dart';
 import 'package:alphaone/presentation/home/bloc/news_songs_state.dart';
+import 'package:alphaone/presentation/song_player/pages/song_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
