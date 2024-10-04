@@ -1,8 +1,10 @@
 import 'package:alphaone/common/helpers/is_dark_mode.dart';
+import 'package:alphaone/common/widgets/favorite_button/favorite_button.dart';
 import 'package:alphaone/core/configs/theme/app_colors.dart';
 import 'package:alphaone/domain/entities/song/song.dart';
 import 'package:alphaone/presentation/home/bloc/play_list_cubit.dart';
 import 'package:alphaone/presentation/home/bloc/play_list_state.dart';
+import 'package:alphaone/presentation/song_player/pages/song_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
